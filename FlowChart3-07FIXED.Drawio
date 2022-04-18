@@ -129,7 +129,7 @@
                 <mxCell id="56" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="427.75" y="890" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;" parent="1" source="62" target="43" edge="1">
+                <mxCell id="64" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="62" target="43">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="Get year_number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">

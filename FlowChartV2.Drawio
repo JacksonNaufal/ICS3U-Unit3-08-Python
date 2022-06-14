@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rrNZ2hX4SemhEcKXl6Vw" name="Page-1">
-        <mxGraphModel dx="594" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="594" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -11,21 +11,22 @@
                     <mxGeometry x="367.75" y="120" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="553" y="950" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="563" y="950" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="" style="edgeStyle=none;html=1;" parent="1" source="6" target="7" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="47" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="613" y="569"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="&lt;br&gt;If year %4&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="6" value="&lt;br&gt;If year %4&lt;br&gt;== 0&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="367.75" y="517.75" width="102.25" height="102.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="It is a leap year" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="538.87" width="126" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="10" target="21" edge="1">
+                <mxCell id="9" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="10" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="10" target="33" edge="1">
+                <mxCell id="44" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="18">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;if year %400&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -38,12 +39,17 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="479" y="530" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="410" y="620" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14" target="18" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="45" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="708"/>
+                            <mxPoint x="330" y="980"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="&lt;br&gt;if year %100&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="14" value="&lt;br&gt;if year %100 &lt;br&gt;== 0&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="660" width="100" height="95" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" parent="1" source="6" target="14" edge="1">
@@ -53,34 +59,16 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="16" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="479" y="670" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="423" y="755" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;" parent="1" source="18" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="688" y="707" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="18" value="It is not a leap &lt;br&gt;year" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="677.5" width="126" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="479" y="800" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" parent="1" source="21" target="4" edge="1">
+                <mxCell id="46" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="18" target="4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="It is a leap year" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="817.25" width="126" height="60" as="geometry"/>
+                <mxCell id="18" value="It is not a leap &lt;br&gt;year" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="817.25" width="126" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="" style="edgeStyle=none;html=1;rounded=0;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" parent="1" source="7" target="4" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="603" y="598.8699999999999" as="sourcePoint"/>
-                        <mxPoint x="603" y="1060" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="690" y="569"/>
-                            <mxPoint x="690" y="980"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="19" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="427.75" y="894.5" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="24" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -115,10 +103,10 @@
                     <mxGeometry x="780" y="590" width="126" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="427.75" y="620" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="460" y="530" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="427.75" y="770" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="330" y="670" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" parent="1" source="33" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -127,7 +115,7 @@
                     <mxGeometry x="357" y="950" width="126" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="427.75" y="890" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="460" y="810" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" source="36" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -135,10 +123,10 @@
                 <mxCell id="36" value="Get year_number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="347.75" y="200" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="37" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="440" y="390" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="exception" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="38" value="exception" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="470" y="300" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
